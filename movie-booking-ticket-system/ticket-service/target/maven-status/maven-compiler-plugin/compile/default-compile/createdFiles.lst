@@ -1,0 +1,5 @@
+com\example\ticketservice\controller\TicketController.class
+com\example\ticketservice\entity\Ticket$TicketBuilder.class
+com\example\ticketservice\entity\Ticket.class
+com\example\ticketservice\config\ServiceConfig.class
+com\example\ticketservice\TicketServiceApplication.class

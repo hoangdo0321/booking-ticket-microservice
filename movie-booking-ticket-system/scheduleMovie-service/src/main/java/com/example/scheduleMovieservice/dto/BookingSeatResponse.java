@@ -1,0 +1,20 @@
+package com.example.scheduleMovieservice.dto;
+
+import lombok.*;
+
+import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class BookingSeatResponse {
+    private Long scheduleId;
+    private String date;
+    private String startTime;
+    private String endTime;
+    private String cinema;
+    private String room;
+    private List<SeatResponse> seats;
+}
